@@ -1,3 +1,4 @@
 FROM nginx
-MAINTAINER Azure App Service Container Images <appsvc-images@microsoft.com>
+MAINTAINER EK TECH SOFTWARE SOLUTION
 COPY . /usr/share/nginx/html
+EXPOSE 80
